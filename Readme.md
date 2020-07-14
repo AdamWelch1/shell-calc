@@ -4,11 +4,11 @@ Shell calc is a simple-to-use calculator program that runs in the shell. It prov
 
 Shell calc was designed to be run as a **C script**, allowing for quick & easy modification of the source as needed without having to compile the code. In order to run Shell calc as a script, you must install TCC ([Tiny C Compiler](https://bellard.org/tcc/)). If you're running Linux, it may be in your package repository. For Debian/Ubuntu, simply run *`sudo apt-get install tcc`*. Alternatively, if you wish to compile the program instead, a small script is included that can compile this with either TCC or GCC. See the build & install instructions below.
 
- - [Usage](#-usage)
- - [Constants and Functions](#-constants-and-functions)
- - [Usage Examples](#-usage-examples)
- - [Adding your own constants and functions](#-adding-your-own-constants-and-functions)
- - [Installation](#-installation)
+ - [Usage](#usage)
+ - [Constants and Functions](#constants-and-functions)
+ - [Usage Examples](#usage-examples)
+ - [Adding your own constants and functions](#adding-your-own-constants-and-functions)
+ - [Installation](#installation)
 
 ### Usage:    
 
