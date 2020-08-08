@@ -6,6 +6,6 @@ echo "Compiling calc.c..."
 # tcc -lm -On -o ./calc ./calc.c
 
 # Compile with GCC
-tail -n +3 ./calc.c | gcc -lm -O0 -g3 -x c -o ./calc -
+tail -n +3 ./calc.c | gcc -O0 -g3 -x c -o ./calc - -lm
 
 if [ $? -eq 0 ]; then echo "Finished compiling. Executable file saved to ./calc. Enjoy!"; fi
